@@ -85,38 +85,38 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Fullscreen Menu Overlay */}
+      {/* Mobile Fullscreen Menu Overlay - FIX: Changed alignment to top with padding */}
       <div
-        className={`fixed inset-0 bg-[#050505] z-40 transition-transform duration-700 ease-in-out flex flex-col items-center justify-center ${
+        className={`fixed inset-0 bg-[#050505] z-40 transition-transform duration-700 ease-in-out flex flex-col items-center pt-32 overflow-y-auto ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
       >
-        <nav className="flex flex-col items-center gap-10 text-xs tracking-[0.4em] uppercase text-neutral-400 font-light">
+        <nav className="flex flex-col items-center gap-8 text-xs tracking-[0.4em] uppercase text-neutral-400 font-light pb-20">
           <Link
             href="/portfolio"
             onClick={toggleMenu}
-            className="hover:text-white transition-colors duration-300"
+            className="hover:text-white transition-colors duration-300 py-2"
           >
             Portfolio
           </Link>
           <Link
             href="/services"
             onClick={toggleMenu}
-            className="hover:text-white transition-colors duration-300"
+            className="hover:text-white transition-colors duration-300 py-2"
           >
             Services
           </Link>
           <Link
             href="/about"
             onClick={toggleMenu}
-            className="hover:text-white transition-colors duration-300"
+            className="hover:text-white transition-colors duration-300 py-2"
           >
             About
           </Link>
           <Link
             href="/contact"
             onClick={toggleMenu}
-            className="mt-8 text-[10px] uppercase tracking-[0.2em] px-10 py-4 border border-white/10 text-white hover:bg-white hover:text-black transition-all duration-500"
+            className="mt-6 text-[10px] uppercase tracking-[0.2em] px-10 py-4 border border-white/10 text-white hover:bg-white hover:text-black transition-all duration-500"
           >
             Book Session
           </Link>
