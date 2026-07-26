@@ -5,11 +5,11 @@ import Link from "next/link";
 
 export default function Home() {
   const heroImages = [
-    "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&q=80&w=2000",
-    "https://images.unsplash.com/photo-1516479007621-e73715c0e12e?auto=format&fit=crop&q=80&w=2000",
-    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=2000",
-    "https://images.unsplash.com/photo-1478529241031-6b8343f5507b?auto=format&fit=crop&q=80&w=2000",
-    "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=2000",
+    "/images/hero1.webp",
+    "/images/hero2.webp",
+    "/images/hero3.webp",
+    "/images/hero4.webp",
+    "/images/hero5.webp",
   ];
 
   // Updated Featured Albums pointing to the dynamic portfolio routes
@@ -61,7 +61,7 @@ export default function Home() {
       setCurrentSlide((prev) =>
         prev === heroImages.length - 1 ? 0 : prev + 1,
       );
-    }, 5000);
+    }, 3000);
     return () => clearInterval(timer);
   }, [heroImages.length]);
 
@@ -69,7 +69,7 @@ export default function Home() {
   useEffect(() => {
     const reviewTimer = setInterval(() => {
       setCurrentReview((prev) => (prev === reviews.length - 1 ? 0 : prev + 1));
-    }, 6000);
+    }, 4000);
     return () => clearInterval(reviewTimer);
   }, [reviews.length]);
 

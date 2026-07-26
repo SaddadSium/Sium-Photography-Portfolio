@@ -8,19 +8,19 @@ export default function Portfolio() {
 
   // High-end Unsplash images for rotating placeholders
   const weddingCovers = [
-    "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1583939000140-690a4dfb80ed?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1529634597503-139d3726fed5?auto=format&fit=crop&q=80&w=1200",
+    "/images/cv1.webp",
+    "/images/cv2.webp",
+    "/images/cv3.webp",
+    "/images/cv4.webp",
+    "/images/cv5.webp",
+    "/images/cv6.webp",
   ];
 
   const corporateCovers = [
-    "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=1200",
+    "/images/cv1.webp",
+    "/images/cv2.webp",
+    "/images/cv3.webp",
+    "/images/cv4.webp",
   ];
 
   // Generating 18 Wedding Albums dynamically
