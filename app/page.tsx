@@ -76,8 +76,8 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* 1. HERO SLIDER SECTION */}
-      {/* FIX: Removed mt-[-96px] and added min-h-[100dvh] for perfect mobile and PC scaling */}
-      <section className="relative h-screen min-h-[100dvh] w-full overflow-hidden flex items-center justify-center border-b border-white/10">
+      {/* FIX: h-[100vh] ensures it fits strictly to device height, avoiding mobile scrolling issues */}
+      <section className="relative h-[100vh] md:h-screen w-full overflow-hidden flex items-center justify-center border-b border-white/10">
         {heroImages.map((img, index) => (
           <div
             key={index}
@@ -90,29 +90,28 @@ export default function Home() {
               alt={`Featured Shot ${index + 1}`}
               className="w-full h-full object-cover"
             />
-            {/* Added a slightly darker overlay for better text readability on bright images */}
+            {/* Darker overlay for text readability */}
             <div className="absolute inset-0 bg-black/40 sm:bg-black/50"></div>
           </div>
         ))}
 
-        {/* Added slight padding top (pt-12) to optically center the text below the navbar */}
-        <div className="relative z-20 text-center px-4 sm:px-6 flex flex-col items-center mt-10 sm:mt-16 pt-12">
-          <span className="text-[10px] md:text-xs uppercase tracking-[0.5em] text-white/70 mb-4 sm:mb-6 font-medium drop-shadow-md">
+        {/* FIX: Removed extra margins. Added standard pt-20 to optically center it balancing the navbar */}
+        <div className="relative z-20 text-center px-4 sm:px-6 flex flex-col items-center pt-20 md:pt-24 w-full max-w-5xl mx-auto">
+          <span className="text-[10px] md:text-xs uppercase tracking-[0.5em] text-white/70 mb-4 md:mb-6 font-medium drop-shadow-md">
             A Premium Visual Experience
           </span>
-          {/* Responsive Font Size for Hero Text */}
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extralight tracking-tight text-white max-w-4xl leading-tight sm:leading-none mb-6 sm:mb-8 drop-shadow-2xl">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extralight tracking-tight text-white leading-[1.1] sm:leading-none mb-6 md:mb-8 drop-shadow-2xl">
             Mastering the Art of Light & Shadow.
           </h1>
           <Link
             href="/portfolio"
-            className="mt-4 sm:mt-8 text-[10px] uppercase tracking-[0.3em] border-b border-white/30 pb-2 hover:border-white transition-colors text-white/90 hover:text-white font-medium drop-shadow-md"
+            className="mt-4 md:mt-8 text-[10px] uppercase tracking-[0.3em] border-b border-white/30 pb-2 hover:border-white transition-colors text-white/90 hover:text-white font-medium drop-shadow-md"
           >
             Explore Works
           </Link>
         </div>
 
-        <div className="absolute bottom-8 sm:bottom-10 z-20 flex gap-3 sm:gap-4">
+        <div className="absolute bottom-8 md:bottom-12 z-20 flex gap-3 sm:gap-4">
           {heroImages.map((_, index) => (
             <button
               key={index}
@@ -129,7 +128,6 @@ export default function Home() {
       </section>
 
       {/* 2. FEATURED ALBUMS SECTION */}
-      {/* Adjusted padding for mobile (py-24) and PC (md:py-32) */}
       <section id="featured" className="max-w-7xl mx-auto px-6 py-24 md:py-32">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-16 gap-6">
           <div>
@@ -180,7 +178,6 @@ export default function Home() {
       </section>
 
       {/* 3. UNIQUE CLIENT REVIEWS SECTION */}
-      {/* Responsive padding and background quotation mark sizing */}
       <section className="bg-[#050505] py-24 md:py-40 border-t border-b border-white/5 overflow-hidden relative">
         <span className="absolute -top-4 sm:top-10 left-4 md:left-32 text-[10rem] sm:text-[15rem] md:text-[25rem] leading-none text-white/[0.02] font-serif pointer-events-none select-none">
           "
@@ -209,7 +206,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Adjusted min-height for mobile screens so text doesn't overlap */}
           <div className="min-h-[300px] sm:min-h-[250px] md:min-h-[200px] flex items-center justify-center w-full relative">
             {reviews.map((review, idx) => (
               <div
@@ -220,7 +216,6 @@ export default function Home() {
                     : "opacity-0 translate-y-8 z-0 pointer-events-none"
                 }`}
               >
-                {/* Responsive text sizing for reviews */}
                 <p className="text-xl sm:text-2xl md:text-4xl lg:text-5xl text-white font-extralight leading-[1.6] md:leading-[1.4] tracking-wide mb-8 md:mb-12 text-center max-w-4xl px-2">
                   "{review.text}"
                 </p>
@@ -240,7 +235,6 @@ export default function Home() {
       </section>
 
       {/* 4. CONTACT CTA SECTION */}
-      {/* Adjusted padding for mobile */}
       <section
         id="contact"
         className="py-24 md:py-40 px-6 text-center bg-black"
