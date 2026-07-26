@@ -76,7 +76,8 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* 1. HERO SLIDER SECTION */}
-      <section className="relative h-screen w-full overflow-hidden flex items-center justify-center border-b border-white/10 mt-[-96px]">
+      {/* FIX: Removed mt-[-96px] and added min-h-[100dvh] for perfect mobile and PC scaling */}
+      <section className="relative h-screen min-h-[100dvh] w-full overflow-hidden flex items-center justify-center border-b border-white/10">
         {heroImages.map((img, index) => (
           <div
             key={index}
@@ -89,25 +90,29 @@ export default function Home() {
               alt={`Featured Shot ${index + 1}`}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-black/50"></div>
+            {/* Added a slightly darker overlay for better text readability on bright images */}
+            <div className="absolute inset-0 bg-black/40 sm:bg-black/50"></div>
           </div>
         ))}
-        <div className="relative z-20 text-center px-4 sm:px-6 flex flex-col items-center mt-10">
-          <span className="text-[10px] md:text-xs uppercase tracking-[0.5em] text-white/70 mb-4 sm:mb-6 font-medium">
+
+        {/* Added slight padding top (pt-12) to optically center the text below the navbar */}
+        <div className="relative z-20 text-center px-4 sm:px-6 flex flex-col items-center mt-10 sm:mt-16 pt-12">
+          <span className="text-[10px] md:text-xs uppercase tracking-[0.5em] text-white/70 mb-4 sm:mb-6 font-medium drop-shadow-md">
             A Premium Visual Experience
           </span>
           {/* Responsive Font Size for Hero Text */}
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extralight tracking-tight text-white max-w-4xl leading-tight sm:leading-none mb-6 sm:mb-8 drop-shadow-lg">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extralight tracking-tight text-white max-w-4xl leading-tight sm:leading-none mb-6 sm:mb-8 drop-shadow-2xl">
             Mastering the Art of Light & Shadow.
           </h1>
           <Link
             href="/portfolio"
-            className="mt-4 sm:mt-8 text-[10px] uppercase tracking-[0.3em] border-b border-white/30 pb-2 hover:border-white transition-colors text-white/80 hover:text-white font-medium"
+            className="mt-4 sm:mt-8 text-[10px] uppercase tracking-[0.3em] border-b border-white/30 pb-2 hover:border-white transition-colors text-white/90 hover:text-white font-medium drop-shadow-md"
           >
             Explore Works
           </Link>
         </div>
-        <div className="absolute bottom-10 z-20 flex gap-3 sm:gap-4">
+
+        <div className="absolute bottom-8 sm:bottom-10 z-20 flex gap-3 sm:gap-4">
           {heroImages.map((_, index) => (
             <button
               key={index}
