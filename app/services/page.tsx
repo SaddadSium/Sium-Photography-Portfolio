@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 export default function Packages() {
-  // 1. Signature Core Packages (8 Types tailored for BD Market)
   const corePackages = [
     {
       name: "Akhd / Engagement",
       subtitle: "Intimate Ceremonies",
       price: "6,000 BDT",
-      image: "/images/services/akhd.webp",
+      image: "/images/services/Akhd.jpg",
+      imgPosition: "object-center",
       features: [
         "1 Top Tier Photographer",
         "4.30 Hours Coverage",
@@ -20,7 +20,8 @@ export default function Packages() {
       name: "Pre-Wedding",
       subtitle: "Outdoor Romance",
       price: "13,000 BDT",
-      image: "/images/services/pre.webp",
+      image: "/images/services/pre-wedding.jpg",
+      imgPosition: "object-center",
       features: [
         "1 Top Tier Photographer & 1 Top Tier Cinematographer",
         "2 Locations (6 Hours) with Concept & Styling Support",
@@ -33,7 +34,8 @@ export default function Packages() {
       name: "Classic Holud / Mehendi",
       subtitle: "Vibrant Celebrations",
       price: "15,000 BDT",
-      image: "/images/services/mehendi.webp",
+      image: "/images/services/Mehendi.jpg",
+      imgPosition: "object-center",
       features: [
         "1 Senior Photographer & 1 Cinematographer",
         "All Retouched Photos Delivered",
@@ -46,7 +48,8 @@ export default function Packages() {
       name: "Premium Wedding",
       subtitle: "The Main Event",
       price: "20,000 BDT",
-      image: "/images/services/pwed.webp",
+      image: "/images/services/Wedding.jpg",
+      imgPosition: "object-top",
       isPopular: true,
       features: [
         "1 Chief & 1 Senior Photographer",
@@ -60,7 +63,8 @@ export default function Packages() {
       name: "Grand Reception",
       subtitle: "Elegant Conclusion",
       price: "25,000 BDT",
-      image: "/images/services/grep.webp",
+      image: "/images/services/Grecep.jpg",
+      imgPosition: "object-top",
       isPopular: true,
       features: [
         "1 Chief & 1 Top Photographer",
@@ -75,7 +79,8 @@ export default function Packages() {
       name: "Maternity & Baby",
       subtitle: "Life's Milestones",
       price: "7,000 BDT",
-      image: "/images/services/mater.webp",
+      image: "/images/services/Maternity.jpg",
+      imgPosition: "object-top",
       features: [
         "1 Portrait Specialist",
         "4-5 Hours Coverage",
@@ -88,7 +93,8 @@ export default function Packages() {
       name: "Milestone Events",
       subtitle: "Birthdays & Anniversaries",
       price: "14,000 BDT",
-      image: "/images/services/birth.webp",
+      image: "/images/services/Birthday.jpg",
+      imgPosition: "object-center",
       features: [
         "1 Senior Photographer & 1 Cinematographer",
         "5 Hours Event Coverage",
@@ -101,7 +107,8 @@ export default function Packages() {
       name: "Grand Celebrations",
       subtitle: "Receptions, Weddings, & Haldi",
       price: "46,000 BDT",
-      image: "/images/services/grand.webp",
+      image: "/images/services/GRAND.jpg",
+      imgPosition: "object-top",
       features: [
         "3 Senior Photographers & 3 Cinematographer",
         "Drone Coverage for Aerial Shots",
@@ -119,8 +126,8 @@ export default function Packages() {
       name: "The Essential Duo",
       events: "Holud + Wedding (Bride Side)",
       price: "27,000 BDT",
-      image:
-        "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&q=80&w=1200",
+      image: "/images/services/Classicduo.jpg",
+      imgPosition: "object-center",
       benefit:
         "Save 10% on combined booking. Perfect for standard 2-day celebrations.",
       features: [
@@ -134,8 +141,8 @@ export default function Packages() {
       name: "The Classic Duo",
       events: "Wedding + Reception (Groom Side)",
       price: "45,000 BDT",
-      image:
-        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1200",
+      image: "/images/services/Gduo.jpg",
+      imgPosition: "object-center",
       benefit: "Complimentary Drone Coverage for the Reception Entry.",
       features: [
         "2 Top Tier Photographers & 1 Top Tier Cinematographer on Both Days",
@@ -148,8 +155,8 @@ export default function Packages() {
       name: "The Vibrant Trilogy",
       events: "Mehendi + Holud + Wedding (Bride Side)",
       price: "47,000 BDT",
-      image:
-        "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&q=80&w=1200",
+      image: "/images/services/Vtrio.jpg",
+      imgPosition: "object-top",
       benefit: "Get a complimentary pre-wedding session with this package.",
       features: [
         "1 Top Tier Photographers & 1 Top Tier Cinematographer for MEHENDI & HOLUD",
@@ -159,52 +166,55 @@ export default function Packages() {
         "Priority 15-Day Digital Delivery",
       ],
     },
-    {
-      name: "The Grand Trilogy",
-      events: "Holud + Wedding + Reception",
-      price: "80,000 BDT",
-      image:
-        "https://images.unsplash.com/photo-1583939000140-690a4dfb80ed?auto=format&fit=crop&q=80&w=1200",
-      benefit: "Save 15% & Receive a Complimentary Pre-Wedding Session.",
-      isHighlight: true,
-      features: [
-        "Full Team Coverage for 3 Days",
-        "Master Storytelling Cinematic Film",
-        "Pre-Wedding Photo Session (Outdoor)",
-        "All Raw & Edited Digital Files",
-      ],
-    },
-    {
-      name: "The Complete Saga",
-      events: "Akhd + Holud + Wedding + Reception",
-      price: "1,05,000 BDT",
-      image:
-        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=1200",
-      benefit:
-        "Ultimate Value: Save 20% & Guarantee A.S.M. Sium as Lead for All Days.",
-      features: [
-        "Coverage for 4 Full Events",
-        "Drone Coverage Included (2 Events)",
-        "Director's Cut Cinematic Film",
-        "Express 7-Day Digital Turnaround",
-      ],
-    },
-    {
-      name: "The Royal Signature",
-      events: "Pre-Wedding + Mehendi + Holud + Biye + Bou-Bhat",
-      price: "1,35,000 BDT",
-      image:
-        "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=1200",
-      benefit:
-        "Our most exclusive tier. VIP priority, unlimited coverage & zero compromises.",
-      features: [
-        "5 Days of Unrestricted Coverage",
-        "A.S.M. Sium + Elite Creative Team",
-        "Next-Day Highlight Deliveries",
-        "Lifetime Cloud Backup",
-        "Commercial-Grade Color Science",
-      ],
-    },
+    // {
+    //   name: "The Grand Trilogy",
+    //   events: "Holud + Wedding + Reception",
+    //   price: "80,000 BDT",
+    //   image:
+    //     "https://images.unsplash.com/photo-1583939000140-690a4dfb80ed?auto=format&fit=crop&q=80&w=1200",
+    //   imgPosition: "object-top",
+    //   benefit: "Save 15% & Receive a Complimentary Pre-Wedding Session.",
+    //   isHighlight: true,
+    //   features: [
+    //     "Full Team Coverage for 3 Days",
+    //     "Master Storytelling Cinematic Film",
+    //     "Pre-Wedding Photo Session (Outdoor)",
+    //     "All Raw & Edited Digital Files",
+    //   ],
+    // },
+    // {
+    //   name: "The Complete Saga",
+    //   events: "Akhd + Holud + Wedding + Reception",
+    //   price: "1,05,000 BDT",
+    //   image:
+    //     "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=1200",
+    //   imgPosition: "object-top",
+    //   benefit:
+    //     "Ultimate Value: Save 20% & Guarantee A.S.M. Sium as Lead for All Days.",
+    //   features: [
+    //     "Coverage for 4 Full Events",
+    //     "Drone Coverage Included (2 Events)",
+    //     "Director's Cut Cinematic Film",
+    //     "Express 7-Day Digital Turnaround",
+    //   ],
+    // },
+    // {
+    //   name: "The Royal Signature",
+    //   events: "Pre-Wedding + Mehendi + Holud + Biye + Bou-Bhat",
+    //   price: "1,35,000 BDT",
+    //   image:
+    //     "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=1200",
+    //   imgPosition: "object-top",
+    //   benefit:
+    //     "Our most exclusive tier. VIP priority, unlimited coverage & zero compromises.",
+    //   features: [
+    //     "5 Days of Unrestricted Coverage",
+    //     "A.S.M. Sium + Elite Creative Team",
+    //     "Next-Day Highlight Deliveries",
+    //     "Lifetime Cloud Backup",
+    //     "Commercial-Grade Color Science",
+    //   ],
+    // },
   ];
 
   // 3. Physical Add-Ons
@@ -233,7 +243,7 @@ export default function Packages() {
 
   return (
     <div className="min-h-screen pt-32 pb-24 bg-[#020202]">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1400px] mx-auto px-6">
         {/* --- SECTION 1: CORE PACKAGES --- */}
         <div className="text-center mb-20">
           <h1 className="text-3xl md:text-5xl font-extralight tracking-widest text-white uppercase mb-4">
@@ -245,8 +255,8 @@ export default function Packages() {
           </p>
         </div>
 
-        {/* Updated: Changed to 2 columns (md:grid-cols-2) and massive image heights */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 mb-40">
+        {/* 3 columns on PC (lg:grid-cols-3) and 1 on Mobile (grid-cols-1) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 mb-40">
           {corePackages.map((pkg, idx) => (
             <div
               key={idx}
@@ -256,21 +266,23 @@ export default function Packages() {
                   : "border-white/10"
               } group cursor-pointer`}
             >
-              {/* Updated: Image height is now massive (h-[400px] to h-[500px]) */}
-              <div className="h-[350px] md:h-[450px] relative overflow-hidden">
+              <div className="h-[350px] lg:h-[380px] relative overflow-hidden">
+                {/* Dynamically applying the imgPosition class for perfect framing */}
                 <img
                   src={pkg.image}
                   alt={pkg.name}
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80 group-hover:opacity-100"
+                  className={`w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90 group-hover:opacity-100 ${
+                    pkg.imgPosition || "object-center"
+                  }`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/60 to-transparent"></div>
-                <div className="absolute bottom-8 left-8 right-8">
+                <div className="absolute bottom-8 left-6 right-6">
                   {pkg.isPopular && (
                     <span className="inline-block px-3 py-1 bg-white text-black text-[9px] uppercase tracking-widest font-bold mb-4 rounded-full">
                       Most Selected
                     </span>
                   )}
-                  <h2 className="text-3xl md:text-4xl font-serif italic text-white mb-2">
+                  <h2 className="text-2xl md:text-3xl font-serif italic text-white mb-2">
                     {pkg.name}.
                   </h2>
                   <p className="text-[10px] md:text-xs uppercase tracking-widest text-neutral-400">
@@ -279,10 +291,9 @@ export default function Packages() {
                 </div>
               </div>
 
-              {/* Added more padding (p-8 to p-10) to match the massive images */}
-              <div className="p-8 md:p-10 flex-grow flex flex-col justify-between bg-neutral-900">
+              <div className="p-8 flex-grow flex flex-col justify-between bg-neutral-900">
                 <div className="mb-10">
-                  <div className="text-2xl font-light text-white tracking-widest mb-8 pb-6 border-b border-white/10">
+                  <div className="text-xl font-light text-white tracking-widest mb-6 pb-6 border-b border-white/10">
                     {pkg.price}
                   </div>
                   <ul className="space-y-4">
@@ -291,7 +302,7 @@ export default function Packages() {
                         <span className="text-white text-xs mt-1 opacity-50">
                           &bull;
                         </span>
-                        <span className="text-sm font-light text-neutral-300 tracking-wide">
+                        <span className="text-xs md:text-sm font-light text-neutral-300 tracking-wide">
                           {feature}
                         </span>
                       </li>
@@ -325,8 +336,8 @@ export default function Packages() {
           </p>
         </div>
 
-        {/* Updated: Changed to 2 columns and massive heights for combos as well */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 mb-40">
+        {/* 3 columns on PC for Combos */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 mb-40">
           {comboPackages.map((combo, idx) => (
             <div
               key={idx}
@@ -336,16 +347,18 @@ export default function Packages() {
                   : "border-white/10 hover:border-white/20"
               }`}
             >
-              {/* Massive Image Header for Combos */}
-              <div className="h-[350px] md:h-[450px] relative overflow-hidden">
+              <div className="h-[350px] lg:h-[380px] relative overflow-hidden">
+                {/* Dynamically applying the imgPosition class for combos too */}
                 <img
                   src={combo.image}
                   alt={combo.name}
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-70 group-hover:opacity-100"
+                  className={`w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-95 group-hover:opacity-100 ${
+                    combo.imgPosition || "object-center"
+                  }`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/60 to-transparent"></div>
-                <div className="absolute bottom-8 left-8 right-8">
-                  <h3 className="text-3xl md:text-4xl font-serif italic text-white mb-2">
+                <div className="absolute bottom-8 left-6 right-6">
+                  <h3 className="text-2xl md:text-3xl font-serif italic text-white mb-2">
                     {combo.name}
                   </h3>
                   <p className="text-[10px] md:text-xs uppercase tracking-widest text-neutral-300 font-medium">
@@ -354,16 +367,15 @@ export default function Packages() {
                 </div>
               </div>
 
-              {/* Combo Content with larger padding */}
-              <div className="p-8 md:p-10 flex-grow flex flex-col justify-between">
+              <div className="p-8 flex-grow flex flex-col justify-between">
                 <div>
-                  <div className="text-2xl font-light text-white tracking-widest mb-8 pb-6 border-b border-white/10">
+                  <div className="text-xl font-light text-white tracking-widest mb-6 pb-6 border-b border-white/10">
                     {combo.price}
                   </div>
 
-                  <div className="bg-white/5 border border-white/10 p-5 mb-8">
-                    <p className="text-xs md:text-sm font-light text-white leading-relaxed">
-                      <span className="font-semibold uppercase tracking-widest text-[9px] md:text-[10px] text-neutral-400 block mb-2">
+                  <div className="bg-white/5 border border-white/10 p-4 mb-6">
+                    <p className="text-xs font-light text-white leading-relaxed">
+                      <span className="font-semibold uppercase tracking-widest text-[9px] text-neutral-400 block mb-2">
                         Client Benefit
                       </span>
                       {combo.benefit}
@@ -376,7 +388,7 @@ export default function Packages() {
                         <span className="text-white text-xs mt-1 opacity-50">
                           &bull;
                         </span>
-                        <span className="text-sm font-light text-neutral-400">
+                        <span className="text-xs md:text-sm font-light text-neutral-400">
                           {feature}
                         </span>
                       </li>
