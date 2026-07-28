@@ -17,9 +17,9 @@ export default function About() {
           {/* Portrait Image (Cinematic Hover Effect) */}
           <div className="aspect-[3/4] w-full bg-neutral-900 relative group overflow-hidden border border-white/5">
             <img
-              src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?auto=format&fit=crop&q=80&w=1000"
+              src="/images/portfolio/SSIUM.webp"
               alt="A.S.M. Sium"
-              className="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-1000 ease-out transform group-hover:scale-105"
+              className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-all duration-1000 ease-out transform group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-1000"></div>
           </div>
@@ -35,14 +35,14 @@ export default function About() {
               <p>
                 I am A.S.M. Sium, a professional photographer and visual creator
                 based in Dhaka, Bangladesh. My work bridges the gap between raw,
-                authentic emotion and high-end cinematic elegance.
+                authentic emotion and high-end photographic elegance.
               </p>
               <p>
-                Specializing in fashion editorial, premium weddings, fine-art
-                portraiture, and corporate visual identity, I approach every
-                project with a strict commitment to minimal, luxury aesthetics.
-                My technical background allows me to manipulate light and shadow
-                with precision, ensuring every frame is flawless.
+                Specializing in premium weddings, fine-art portraiture, and
+                corporate visual identity, I approach every project with a
+                strict commitment to minimal, luxury aesthetics. My technical
+                background allows me to manipulate light and shadow with
+                precision, ensuring every frame is flawless.
               </p>
               <p>
                 Whether working locally or traveling for international
@@ -57,7 +57,7 @@ export default function About() {
                 A.S.M. Sium
               </p>
               <p className="text-[10px] uppercase tracking-[0.3em] text-neutral-500 font-medium">
-                Founder & Lead Photographer
+                Lead Photographer
               </p>
             </div>
           </div>

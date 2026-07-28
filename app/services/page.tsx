@@ -170,8 +170,7 @@ export default function Packages() {
       name: "The Grand Trilogy",
       events: "Holud + Wedding + Reception (Groom/Bride Side)",
       price: "65,000 BDT",
-      image:
-        "https://images.unsplash.com/photo-1583939000140-690a4dfb80ed?auto=format&fit=crop&q=80&w=1200",
+      image: "/images/services/GTrio.jpg",
       imgPosition: "object-top",
       benefit:
         "Complimentary Pre-Wedding Session & Drone Coverage for Reception.",
@@ -189,8 +188,7 @@ export default function Packages() {
       name: "The Complete Saga",
       events: "Akhd + Holud + Wedding + Reception",
       price: "85,000 BDT",
-      image:
-        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=1200",
+      image: "/images/services/CSaga.jpg",
       imgPosition: "object-top",
       benefit:
         "Ultimate Value: Save 10% & Complimentary Pre-Wedding Session, Drone coverage (Reception), and express delivery within 14 Days.",
@@ -207,8 +205,7 @@ export default function Packages() {
       events:
         "Pre-Wedding + Mehendi + Holud + Wedding + Reception (Bride & Groom Side)",
       price: "1,35,000 BDT",
-      image:
-        "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=1200",
+      image: "/images/services/R.jpg",
       imgPosition: "object-top",
       benefit:
         "Our most exclusive tier. VIP priority, unlimited coverage & zero compromises.",
