@@ -166,55 +166,55 @@ export default function Packages() {
         "Priority 15-Day Digital Delivery",
       ],
     },
-    // {
-    //   name: "The Grand Trilogy",
-    //   events: "Holud + Wedding + Reception",
-    //   price: "80,000 BDT",
-    //   image:
-    //     "https://images.unsplash.com/photo-1583939000140-690a4dfb80ed?auto=format&fit=crop&q=80&w=1200",
-    //   imgPosition: "object-top",
-    //   benefit: "Save 15% & Receive a Complimentary Pre-Wedding Session.",
-    //   isHighlight: true,
-    //   features: [
-    //     "Full Team Coverage for 3 Days",
-    //     "Master Storytelling Cinematic Film",
-    //     "Pre-Wedding Photo Session (Outdoor)",
-    //     "All Raw & Edited Digital Files",
-    //   ],
-    // },
-    // {
-    //   name: "The Complete Saga",
-    //   events: "Akhd + Holud + Wedding + Reception",
-    //   price: "1,05,000 BDT",
-    //   image:
-    //     "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=1200",
-    //   imgPosition: "object-top",
-    //   benefit:
-    //     "Ultimate Value: Save 20% & Guarantee A.S.M. Sium as Lead for All Days.",
-    //   features: [
-    //     "Coverage for 4 Full Events",
-    //     "Drone Coverage Included (2 Events)",
-    //     "Director's Cut Cinematic Film",
-    //     "Express 7-Day Digital Turnaround",
-    //   ],
-    // },
-    // {
-    //   name: "The Royal Signature",
-    //   events: "Pre-Wedding + Mehendi + Holud + Biye + Bou-Bhat",
-    //   price: "1,35,000 BDT",
-    //   image:
-    //     "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=1200",
-    //   imgPosition: "object-top",
-    //   benefit:
-    //     "Our most exclusive tier. VIP priority, unlimited coverage & zero compromises.",
-    //   features: [
-    //     "5 Days of Unrestricted Coverage",
-    //     "A.S.M. Sium + Elite Creative Team",
-    //     "Next-Day Highlight Deliveries",
-    //     "Lifetime Cloud Backup",
-    //     "Commercial-Grade Color Science",
-    //   ],
-    // },
+    {
+      name: "The Grand Trilogy",
+      events: "Holud + Wedding + Reception",
+      price: "80,000 BDT",
+      image:
+        "https://images.unsplash.com/photo-1583939000140-690a4dfb80ed?auto=format&fit=crop&q=80&w=1200",
+      imgPosition: "object-top",
+      benefit: "Save 15% & Receive a Complimentary Pre-Wedding Session.",
+      isHighlight: true,
+      features: [
+        "Full Team Coverage for 3 Days",
+        "Master Storytelling Cinematic Film",
+        "Pre-Wedding Photo Session (Outdoor)",
+        "All Raw & Edited Digital Files",
+      ],
+    },
+    {
+      name: "The Complete Saga",
+      events: "Akhd + Holud + Wedding + Reception",
+      price: "1,05,000 BDT",
+      image:
+        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=1200",
+      imgPosition: "object-top",
+      benefit:
+        "Ultimate Value: Save 20% & Guarantee A.S.M. Sium as Lead for All Days.",
+      features: [
+        "Coverage for 4 Full Events",
+        "Drone Coverage Included (2 Events)",
+        "Director's Cut Cinematic Film",
+        "Express 7-Day Digital Turnaround",
+      ],
+    },
+    {
+      name: "The Royal Signature",
+      events: "Pre-Wedding + Mehendi + Holud + Biye + Bou-Bhat",
+      price: "1,35,000 BDT",
+      image:
+        "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=1200",
+      imgPosition: "object-top",
+      benefit:
+        "Our most exclusive tier. VIP priority, unlimited coverage & zero compromises.",
+      features: [
+        "5 Days of Unrestricted Coverage",
+        "A.S.M. Sium + Elite Creative Team",
+        "Next-Day Highlight Deliveries",
+        "Lifetime Cloud Backup",
+        "Commercial-Grade Color Science",
+      ],
+    },
   ];
 
   // 3. Physical Add-Ons
