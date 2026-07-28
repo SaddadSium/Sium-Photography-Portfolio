@@ -129,29 +129,32 @@ export default function BookingPage() {
                     label="Signature Tiers"
                     className="text-black bg-white font-semibold"
                   >
-                    <option value="Akht / Engagement" className="font-light">
-                      Akht / Engagement (12,000 BDT)
+                    <option value="Akhd / Engagement" className="font-light">
+                      Akhd / Engagement (6,000 BDT)
                     </option>
-                    <option value="Pre-Wedding" className="font-light">
-                      Pre-Wedding (15,000 BDT)
+                    <option value="Pre/Post-Wedding" className="font-light">
+                      Pre/Post-Wedding (13,000 BDT)
                     </option>
-                    <option value="Classic Holud" className="font-light">
-                      Classic Holud (18,000 BDT)
+                    <option
+                      value="Classic Holud / Mehendi"
+                      className="font-light"
+                    >
+                      Classic Holud / Mehendi (15,000 BDT)
                     </option>
                     <option value="Premium Wedding" className="font-light">
-                      Premium Wedding (35,000 BDT)
+                      Premium Wedding (20,000 BDT)
                     </option>
                     <option value="Grand Reception" className="font-light">
-                      Grand Reception (30,000 BDT)
+                      Grand Reception (25,000 BDT)
                     </option>
                     <option value="Maternity & Baby" className="font-light">
-                      Maternity & Baby (10,000 BDT)
+                      Maternity & Baby (7,000 BDT)
                     </option>
                     <option value="Milestone Events" className="font-light">
-                      Milestone Events (15,000 BDT)
+                      Milestone Events (14,000 BDT)
                     </option>
                     <option value="Corporate & Brand" className="font-light">
-                      Corporate & Brand (25,000 BDT)
+                      Grand Celebrations (46,000 BDT)
                     </option>
                   </optgroup>
 
@@ -164,31 +167,31 @@ export default function BookingPage() {
                       value="Combo: The Essential Duo"
                       className="font-light"
                     >
-                      The Essential Duo (48,000 BDT)
+                      The Essential Duo (27,000 BDT)
                     </option>
                     <option
                       value="Combo: The Classic Duo"
                       className="font-light"
                     >
-                      The Classic Duo (60,000 BDT)
+                      The Classic Duo (45,000 BDT)
                     </option>
                     <option
                       value="Combo: The Vibrant Trilogy"
                       className="font-light"
                     >
-                      The Vibrant Trilogy (70,000 BDT)
+                      The Vibrant Trilogy (47,000 BDT)
                     </option>
                     <option
                       value="Combo: The Grand Trilogy"
                       className="font-light"
                     >
-                      The Grand Trilogy (80,000 BDT)
+                      The Grand Trilogy (65,000 BDT)
                     </option>
                     <option
                       value="Combo: The Complete Saga"
                       className="font-light"
                     >
-                      The Complete Saga (1,05,000 BDT)
+                      The Complete Saga (85,000 BDT)
                     </option>
                     <option
                       value="Combo: The Royal Signature"

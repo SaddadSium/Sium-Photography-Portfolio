@@ -14,7 +14,7 @@ export default function About() {
 
         {/* Split Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          {/* Portrait Image (Cinematic Hover Effect) */}
+          {/* Portrait Image */}
           <div className="aspect-[3/4] w-full bg-neutral-900 relative group overflow-hidden border border-white/5">
             <img
               src="/images/portfolio/SSIUM.webp"

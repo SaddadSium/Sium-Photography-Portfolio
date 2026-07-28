@@ -17,7 +17,7 @@ export default function Packages() {
       ],
     },
     {
-      name: "Pre-Wedding",
+      name: "Pre/Post-Wedding",
       subtitle: "Outdoor Romance",
       price: "13,000 BDT",
       image: "/images/services/pre-wedding.jpg",
@@ -272,7 +272,7 @@ export default function Packages() {
           </p>
         </div>
 
-        {/* 3 columns on PC (lg:grid-cols-3) and 1 on Mobile (grid-cols-1) */}
+        {/* 3 columns on PC and 1 on Mobile */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 mb-40">
           {corePackages.map((pkg, idx) => (
             <div
