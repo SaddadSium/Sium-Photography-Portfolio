@@ -168,39 +168,44 @@ export default function Packages() {
     },
     {
       name: "The Grand Trilogy",
-      events: "Holud + Wedding + Reception",
-      price: "80,000 BDT",
+      events: "Holud + Wedding + Reception (Groom/Bride Side)",
+      price: "65,000 BDT",
       image:
         "https://images.unsplash.com/photo-1583939000140-690a4dfb80ed?auto=format&fit=crop&q=80&w=1200",
       imgPosition: "object-top",
-      benefit: "Save 15% & Receive a Complimentary Pre-Wedding Session.",
+      benefit:
+        "Complimentary Pre-Wedding Session & Drone Coverage for Reception.",
       isHighlight: true,
       features: [
-        "Full Team Coverage for 3 Days",
-        "Master Storytelling Cinematic Film",
-        "Pre-Wedding Photo Session (Outdoor)",
-        "All Raw & Edited Digital Files",
+        "1 Senior Photographer & 1 Top Cinematographer for Holud",
+        "2 Senior Photographers & 1 Top Cinematographer for Wedding & Reception",
+        "5-6 Hours Coverage per Day",
+        "1 Cinematic Trailer, 1 Full Film Edit (per Day) & Reels for pre-wedding, wedding & reception",
+        "All Retouched Photos Delivered",
+        "Delivery By Pen Drive (30 Days)",
       ],
     },
     {
       name: "The Complete Saga",
       events: "Akhd + Holud + Wedding + Reception",
-      price: "1,05,000 BDT",
+      price: "85,000 BDT",
       image:
         "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=1200",
       imgPosition: "object-top",
       benefit:
-        "Ultimate Value: Save 20% & Guarantee A.S.M. Sium as Lead for All Days.",
+        "Ultimate Value: Save 10% & Complimentary Pre-Wedding Session, Drone coverage (Reception), and express delivery within 14 Days.",
       features: [
-        "Coverage for 4 Full Events",
-        "Drone Coverage Included (2 Events)",
-        "Director's Cut Cinematic Film",
-        "Express 7-Day Digital Turnaround",
+        "5-6 Hours Coverage for 4 Full Events (Akhd, Holud, Wedding & Reception)",
+        "1 Senior Photographer & 1 Top Cinematographer for Akhd & Holud",
+        "2 Senior Photographers & 1 Top Cinematographer for Wedding & Reception",
+        "All Retouched Photos Delivered",
+        "1 Cinematic Trailer, 1 Full Film Edit (per Day) & Reels for all events",
       ],
     },
     {
       name: "The Royal Signature",
-      events: "Pre-Wedding + Mehendi + Holud + Biye + Bou-Bhat",
+      events:
+        "Pre-Wedding + Mehendi + Holud + Wedding + Reception (Bride & Groom Side)",
       price: "1,35,000 BDT",
       image:
         "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=1200",
@@ -208,11 +213,11 @@ export default function Packages() {
       benefit:
         "Our most exclusive tier. VIP priority, unlimited coverage & zero compromises.",
       features: [
-        "5 Days of Unrestricted Coverage",
-        "A.S.M. Sium + Elite Creative Team",
-        "Next-Day Highlight Deliveries",
-        "Lifetime Cloud Backup",
-        "Commercial-Grade Color Science",
+        "6-8 Hours of Unrestricted Coverage",
+        "2 Senior Photographers & 2 Top Cinematographers for Mehendi & Holud",
+        "3 Senior Photographers & 2 Top Cinematographers for Wedding & Drone Coverage",
+        "3 Senior Photographers & 3 Top Cinematographers for Reception & Drone Coverage",
+        "1 Cinematic Trailer, 1 Full Film Edit (per Day) & Reels for all events",
       ],
     },
   ];
@@ -220,24 +225,39 @@ export default function Packages() {
   // 3. Physical Add-Ons
   const addOns = [
     {
+      name: "Fine Art Photo Album (100 Pieces)",
+      desc: "Archival Quality Prints (Various Sizes)",
+      price: "Starts at 600 BDT",
+    },
+    {
+      name: "Elegant Photo Album (200 Pieces)",
+      desc: "Archival Quality Prints (Various Sizes)",
+      price: "Starts at 1,200 BDT",
+    },
+    {
+      name: "4R Photo Prints",
+      desc: "4*6 Inches Per Photo Print, Archival Quality",
+      price: "Per Print: 16 BDT",
+    },
+    {
+      name: "12L Photo Prints",
+      desc: "12*16 Inches Per Photo Print, Archival Quality",
+      price: "Starts at 400 BDT",
+    },
+    {
       name: "Standard Photobook",
       desc: "10x10 inch, Matte Finish, 40 Pages",
-      price: "6,000 BDT",
+      price: "6,500 BDT",
     },
     {
       name: "Premium Heirloom Album",
       desc: "12x15 inch, Luxury Leather Bound, 50 Pages",
-      price: "12,000 BDT",
+      price: "12,500 BDT",
     },
     {
-      name: "Fine Art Photo Prints",
-      desc: "Archival Quality Prints (Various Sizes)",
-      price: "Starts at 500 BDT",
-    },
-    {
-      name: "Custom Engraved Pendrive",
-      desc: "Wooden/Metal USB with all high-res files & premium box",
-      price: "2,500 BDT",
+      name: "Pendrive with All High-Res Files",
+      desc: "32 GB, 64 GB, or 128 GB Options Available",
+      price: "Range 1,000 BDT - 1,800 BDT",
     },
   ];
 
