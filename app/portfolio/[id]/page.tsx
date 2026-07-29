@@ -124,6 +124,26 @@ const albumDatabase: Record<
       "/images/portfolio/wedding-6/pic3.jpg",
     ],
   },
+  "wedding-7": {
+    title: "Udoy & Sumaiya",
+    category: "Premium Wedding",
+    coverImage: "/images/portfolio/wedding-7/cover.jpg",
+    gallery: [
+      "/images/portfolio/wedding-7/pic1.jpg",
+      "/images/portfolio/wedding-7/pic2.jpg",
+      "/images/portfolio/wedding-7/pic3.jpg",
+    ],
+  },
+  "wedding-8": {
+    title: "Shanto & Madhurjo",
+    category: "Intimate Wedding",
+    coverImage: "/images/portfolio/wedding-8/cover.jpg",
+    gallery: [
+      "/images/portfolio/wedding-8/pic1.jpg",
+      "/images/portfolio/wedding-8/pic2.jpg",
+      "/images/portfolio/wedding-8/pic3.jpg",
+    ],
+  },
 
   // --------- CORPORATE ALBUMS ---------
   "corporate-1": {
