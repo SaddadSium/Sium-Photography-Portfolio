@@ -15,9 +15,9 @@ export default function Home() {
   // Updated Featured Albums pointing to the dynamic portfolio routes
   const featuredAlbums = [
     {
-      title: "The Royal Tale I",
-      category: "Premium Wedding",
-      img: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800",
+      title: "Tanvir & Sanjida",
+      category: "Grand Celebrations",
+      img: "/images/portfolio/T1.jpg",
       link: "/portfolio/wedding-1",
     },
     {
@@ -27,9 +27,9 @@ export default function Home() {
       link: "/portfolio/corporate-1",
     },
     {
-      title: "The Royal Tale II",
-      category: "Exclusive Wedding",
-      img: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800",
+      title: "Monia's Mehendi",
+      category: "Mehendi Ceremony'26",
+      img: "/images/portfolio/wedding-2/pic9.jpg",
       link: "/portfolio/wedding-2",
     },
   ];
@@ -156,7 +156,7 @@ export default function Home() {
               <img
                 src={album.img}
                 alt={album.title}
-                className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80 group-hover:opacity-100 grayscale group-hover:grayscale-0"
+                className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-80 group-hover:opacity-100  group-hover:grayscale-0"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 sm:p-8 flex flex-col justify-end transition-opacity duration-500">
                 <span className="text-[9px] tracking-[0.4em] uppercase text-neutral-400 mb-2 font-medium">

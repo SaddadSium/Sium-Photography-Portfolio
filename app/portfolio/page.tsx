@@ -22,7 +22,7 @@ export default function Portfolio() {
     },
     {
       id: "wedding-3",
-      title: "Mehadi & Trina",
+      title: "Moon & Trina",
       client: "Wedding Series 2026",
       image: "/images/portfolio/T2.jpg",
     },

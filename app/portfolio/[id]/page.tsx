@@ -4,7 +4,6 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 
 // 1. ALBUM DATABASE
-// এখানে আপনার পোর্টফোলিওর আইডি অনুযায়ী অ্যালবামের ভেতরের ছবিগুলো (gallery) সেট করবেন।
 const albumDatabase: Record<
   string,
   { title: string; category: string; coverImage: string; gallery: string[] }
@@ -18,33 +17,113 @@ const albumDatabase: Record<
       "/images/portfolio/wedding-1/pic1.jpg",
       "/images/portfolio/wedding-1/pic2.jpg",
       "/images/portfolio/wedding-1/pic3.jpg",
-      // এভাবে যতো খুশি ছবির লিংক দিতে পারবেন
     ],
   },
   "wedding-2": {
     title: "Monia's Mehendi",
-    category: "Mehendi Ceremony",
-    coverImage: "/images/portfolio/TW.jpg",
+    category: "Mehendi Ceremony'26",
+    coverImage: "/images/portfolio/wedding-2/cover.jpg",
     gallery: [
       "/images/portfolio/wedding-2/pic1.jpg",
       "/images/portfolio/wedding-2/pic2.jpg",
+      "/images/portfolio/wedding-2/pic3.jpg",
+      "/images/portfolio/wedding-2/pic4.jpg",
+      "/images/portfolio/wedding-2/pic5.jpg",
+      "/images/portfolio/wedding-2/pic6.jpg",
+      "/images/portfolio/wedding-2/pic7.jpg",
+      "/images/portfolio/wedding-2/pic8.jpg",
+      "/images/portfolio/wedding-2/pic9.jpg",
+      "/images/portfolio/wedding-2/pic10.jpg",
+      "/images/portfolio/wedding-2/pic11.jpg",
+      "/images/portfolio/wedding-2/pic12.jpg",
+      "/images/portfolio/wedding-2/pic13.jpg",
+      "/images/portfolio/wedding-2/pic14.jpg",
+      "/images/portfolio/wedding-2/pic15.jpg",
     ],
   },
   "wedding-3": {
-    title: "Mehadi & Trina",
+    title: "Moon & Trina",
     category: "Wedding Series 2026",
-    coverImage: "/images/portfolio/T2.jpg",
+    coverImage: "/images/portfolio/wedding-3/cover.jpg",
     gallery: [
-      // আপনার ছবিগুলো এখানে দিন
+      "/images/portfolio/wedding-3/pic1.jpg",
+      "/images/portfolio/wedding-3/pic2.jpg",
+      "/images/portfolio/wedding-3/pic3.jpg",
+      "/images/portfolio/wedding-3/pic4.jpg",
+      "/images/portfolio/wedding-3/pic5.jpg",
+      "/images/portfolio/wedding-3/pic6.jpg",
+      "/images/portfolio/wedding-3/pic7.jpg",
+      "/images/portfolio/wedding-3/pic8.jpg",
+      "/images/portfolio/wedding-3/pic9.jpg",
+      "/images/portfolio/wedding-3/pic10.jpg",
+      "/images/portfolio/wedding-3/pic11.jpg",
+      "/images/portfolio/wedding-3/pic12.jpg",
+      "/images/portfolio/wedding-3/pic13.jpg",
+      "/images/portfolio/wedding-3/pic14.jpg",
+      "/images/portfolio/wedding-3/pic15.jpg",
+      "/images/portfolio/wedding-3/pic16.jpg",
+      "/images/portfolio/wedding-3/pic17.jpg",
+      "/images/portfolio/wedding-3/pic18.jpg",
+      "/images/portfolio/wedding-3/pic19.jpg",
+      "/images/portfolio/wedding-3/pic20.jpg",
+      "/images/portfolio/wedding-3/pic21.jpg",
+      "/images/portfolio/wedding-3/pic22.jpg",
+      "/images/portfolio/wedding-3/pic23.jpg",
+      "/images/portfolio/wedding-3/pic24.jpg",
+      "/images/portfolio/wedding-3/pic25.jpg",
+      "/images/portfolio/wedding-3/pic26.jpg",
+      "/images/portfolio/wedding-3/pic27.jpg",
+      "/images/portfolio/wedding-3/pic28.jpg",
     ],
   },
   "wedding-4": {
     title: "Atik & Auhona",
     category: "Intimate Akhd",
-    coverImage: "/images/portfolio/T3.jpg",
+    coverImage: "/images/portfolio/wedding-4/cover.jpg",
     gallery: [],
   },
-  // (আপনি চাইলে একইভাবে wedding-5 থেকে wedding-19 পর্যন্ত এখানে যোগ করে নিতে পারবেন)
+  "wedding-5": {
+    title: "Monia's Haldi",
+    category: "Traditional Haldi'26",
+    coverImage: "/images/portfolio/wedding-5/cover.jpg",
+    gallery: [
+      "/images/portfolio/wedding-5/pic1.jpg",
+      "/images/portfolio/wedding-5/pic2.jpg",
+      "/images/portfolio/wedding-5/pic3.jpg",
+      "/images/portfolio/wedding-5/pic4.jpg",
+      "/images/portfolio/wedding-5/pic5.jpg",
+      "/images/portfolio/wedding-5/pic6.jpg",
+      "/images/portfolio/wedding-5/pic7.jpg",
+      "/images/portfolio/wedding-5/pic8.jpg",
+      "/images/portfolio/wedding-5/pic9.jpg",
+      "/images/portfolio/wedding-5/pic10.jpg",
+      "/images/portfolio/wedding-5/pic11.jpg",
+      "/images/portfolio/wedding-5/pic12.jpg",
+      "/images/portfolio/wedding-5/pic13.jpg",
+      "/images/portfolio/wedding-5/pic14.jpg",
+      "/images/portfolio/wedding-5/pic15.jpg",
+      "/images/portfolio/wedding-5/pic16.jpg",
+      "/images/portfolio/wedding-5/pic17.jpg",
+      "/images/portfolio/wedding-5/pic18.jpg",
+      "/images/portfolio/wedding-5/pic19.jpg",
+      "/images/portfolio/wedding-5/pic20.jpg",
+      "/images/portfolio/wedding-5/pic21.jpg",
+      "/images/portfolio/wedding-5/pic22.jpg",
+      "/images/portfolio/wedding-5/pic23.jpg",
+      "/images/portfolio/wedding-5/pic24.jpg",
+      "/images/portfolio/wedding-5/pic25.jpg",
+    ],
+  },
+  "wedding-6": {
+    title: "Rahat & Nidhi",
+    category: "Grand Reception",
+    coverImage: "/images/portfolio/wedding-6/cover.jpg",
+    gallery: [
+      "/images/portfolio/wedding-6/pic1.jpg",
+      "/images/portfolio/wedding-6/pic2.jpg",
+      "/images/portfolio/wedding-6/pic3.jpg",
+    ],
+  },
 
   // --------- CORPORATE ALBUMS ---------
   "corporate-1": {
@@ -101,7 +180,7 @@ export default function AlbumDetail() {
           <img
             src={albumData.coverImage}
             alt={albumData.title}
-            className="w-full h-full object-cover opacity-30 object-center"
+            className="w-full h-full object-cover opacity-70 object-center"
           />
         </div>
 
