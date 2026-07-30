@@ -168,6 +168,21 @@ const albumDatabase: Record<
       "/images/portfolio/wedding-8/pic3.jpg",
     ],
   },
+  "wedding-9": {
+    title: "Roshni's Haldi",
+    category: "Traditional Haldi",
+    coverImage: "/images/portfolio/wedding-9/cover.jpg",
+    gallery: [
+      "/images/portfolio/wedding-9/pic1.jpg",
+      "/images/portfolio/wedding-9/pic2.jpg",
+      "/images/portfolio/wedding-9/pic3.jpg",
+      "/images/portfolio/wedding-9/pic4.jpg",
+      "/images/portfolio/wedding-9/pic5.jpg",
+      "/images/portfolio/wedding-9/pic6.jpg",
+      "/images/portfolio/wedding-9/pic7.jpg",
+      "/images/portfolio/wedding-9/pic8.jpg",
+    ],
+  },
 
   // --------- CORPORATE ALBUMS ---------
   "corporate-1": {

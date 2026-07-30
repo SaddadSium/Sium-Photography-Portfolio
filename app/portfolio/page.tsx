@@ -58,8 +58,8 @@ export default function Portfolio() {
     },
     {
       id: "wedding-9",
-      title: "Whispers of Joy",
-      client: "Bridal Portrait",
+      title: "Roshni's Haldi",
+      client: "Traditional Haldi",
       image: "/images/portfolio/T9.jpg",
     },
     {
@@ -70,8 +70,8 @@ export default function Portfolio() {
     },
     {
       id: "wedding-11",
-      title: "Love & Light",
-      client: "Wedding Series 2026",
+      title: "Nayem & Imu",
+      client: "Wedding Series 2025",
       image: "/images/portfolio/T11.jpg",
     },
     {
