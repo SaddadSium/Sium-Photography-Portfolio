@@ -55,6 +55,15 @@ export default function BookingPage() {
 
           <div className="flex flex-col gap-4 text-xs font-light text-neutral-500 tracking-widest uppercase">
             <p>
+              Phone:{" "}
+              <a
+                href="tel:+8801712345678"
+                className="text-white hover:text-neutral-300 transition-colors"
+              >
+                +880 1795 771000
+              </a>
+            </p>
+            <p>
               Email:{" "}
               <a
                 href="mailto:contact@sium.com"

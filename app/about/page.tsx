@@ -17,7 +17,7 @@ export default function About() {
           {/* Portrait Image */}
           <div className="aspect-[3/4] w-full bg-neutral-900 relative group overflow-hidden border border-white/5">
             <img
-              src="/images/portfolio/SSIUM.webp"
+              src="/images/about/SSIUM.webp"
               alt="A.S.M. Sium"
               className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-all duration-1000 ease-out transform group-hover:scale-105"
             />
@@ -57,7 +57,7 @@ export default function About() {
                 A.S.M. Sium
               </p>
               <p className="text-[10px] uppercase tracking-[0.3em] text-neutral-500 font-medium">
-                Lead Photographer
+                Lead Photographer || O3
               </p>
             </div>
           </div>

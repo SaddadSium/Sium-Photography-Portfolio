@@ -21,10 +21,10 @@ export default function Home() {
       link: "/portfolio/wedding-1",
     },
     {
-      title: "Brand Identity I",
-      category: "Corporate Campaign",
-      img: "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&q=80&w=800",
-      link: "/portfolio/corporate-1",
+      title: "Fakir Technologies Ltd.",
+      category: "New Year Celebration 2026",
+      img: "/images/corporate-cover/C2.jpg",
+      link: "/portfolio/corporate-2",
     },
     {
       title: "Monia's Mehendi",
@@ -36,18 +36,18 @@ export default function Home() {
 
   const reviews = [
     {
-      text: "SIUM has an incredible eye for detail. The way he captures raw emotion and light is simply unmatched. Best investment for our brand campaign.",
-      author: "Sarah Jenkins",
-      role: "Creative Director",
+      text: "An absolute visionary! The way he captures moments is unparalleled. Every shot tells a story, and the final album was nothing short of breathtaking.",
+      author: "Moon & Trina",
+      role: "Bride & Groom",
     },
     {
       text: "Working with him was an absolute pleasure. He made the entire process feel effortless and the final images exceeded all our expectations.",
-      author: "David Muller",
-      role: "Corporate Client",
+      author: "Iqbal Mahmud",
+      role: "Corporate Client FTL",
     },
     {
       text: "A true visual storyteller. The photos weren't just images; they were pieces of art. Highly recommended for anyone looking for premium aesthetics.",
-      author: "Elena Rossi",
+      author: "Sanjida Munia",
       role: "Bride",
     },
   ];
