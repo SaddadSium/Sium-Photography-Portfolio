@@ -3,119 +3,118 @@ import Link from "next/link";
 export default function Packages() {
   const corePackages = [
     {
-      name: "Akhd / Engagement",
-      subtitle: "Intimate Ceremonies",
+      name: "The Intimate Engagement",
+      subtitle: "Akhd & Aqd Ceremonies",
       price: "6,000 BDT",
       image: "/images/services/Akhd.jpg",
       imgPosition: "object-center",
       features: [
-        "1 Top Tier Photographer",
-        "4.30 Hours Coverage",
-        "10 Specialized Retouched Photos",
-        "All Retouched Images Delivered",
-        "Delivery By Google Drive (20 Days)",
+        "Led personally by A.S.M. Sium",
+        "4.5 Hours of Intimate Coverage",
+        "10 Master-Retouched Portraits",
+        "All Edited High-Resolution Files",
+        "Secure Google Drive Delivery (20 Days)",
       ],
     },
     {
-      name: "Pre/Post-Wedding",
-      subtitle: "Outdoor Romance",
+      name: "The Cinematic Escape",
+      subtitle: "Pre/Post-Wedding Portraits",
       price: "13,000 BDT",
       image: "/images/services/pre-wedding.jpg",
       imgPosition: "object-center",
       features: [
-        "1 Top Tier Photographer & 1 Top Tier Cinematographer",
-        "2 Locations (6 Hours) with Concept & Styling Support",
-        "All Retouched Photos Delivered",
-        "Cinematic Reel (1 Min) & 1 Full Film Edit (3-5 Min)",
-        "Delivery By Google Drive (20 Days)",
+        "Led personally by A.S.M. Sium & Lead Cinematographer",
+        "2 Scenic Locations (6 Hours) with Concept & Styling Guidance",
+        "All Hand-Retouched Photos Delivered",
+        "1 Cinematic Reel & 1 Story Film Edit (3-5 Min)",
+        "Secure Google Drive Delivery (20 Days)",
       ],
     },
     {
-      name: "Classic Holud / Mehendi",
-      subtitle: "Vibrant Celebrations",
+      name: "The Radiance Palette",
+      subtitle: "Classic Holud & Mehendi",
       price: "15,000 BDT",
       image: "/images/services/Mehendi.jpg",
       imgPosition: "object-center",
       features: [
-        "1 Senior Photographer & 1 Cinematographer",
-        "All Retouched Photos Delivered",
-        "2 Min Highlight Video & 1 Full Event Edit (5-7 Min)",
-        "Unlimited Clicks & Video Footage",
-        "Delivery By Google Drive (20 Days)",
+        "Supervised & Captured by A.S.M. Sium & Crew",
+        "All Vibrant Retouched Photos Delivered",
+        "2 Min Highlight Film & Full Event Chronicle (5-7 Min)",
+        "Unlimited Clicks & Raw Video Footage",
+        "Secure Google Drive Delivery (20 Days)",
       ],
     },
     {
-      name: "Premium Wedding",
-      subtitle: "The Main Event",
+      name: "The Core Wedding",
+      subtitle: "The Main Celebration",
       price: "20,000 BDT",
       image: "/images/services/Wedding.jpg",
       imgPosition: "object-top",
       isPopular: true,
       features: [
-        "1 Chief & 1 Senior Photographer",
+        "Chief Photographer: A.S.M. Sium + Senior Associate",
         "1 Chief Cinematographer",
-        "All Retouched Photos Delivered",
-        "1 Cinematic Trailer & 1 full-length Wedding Film (10-15 Min)",
-        "Delivery By Pen Drive (30 Days)",
+        "All Curated & Retouched Photos Delivered",
+        "1 Cinematic Trailer & Full Wedding Feature Film (10-15 Min)",
+        "Exclusive Presentation Box with USB Drive (30 Days)",
       ],
     },
     {
-      name: "Grand Reception",
-      subtitle: "Elegant Conclusion",
+      name: "The Grand Finale",
+      subtitle: "Elegant Reception Evening",
       price: "25,000 BDT",
       image: "/images/services/Grecep.jpg",
       imgPosition: "object-top",
       isPopular: true,
       features: [
-        "1 Chief & 1 Top Photographer",
-        "1 Chief & 1 Top Cinematographer",
+        "Chief Photographer: A.S.M. Sium + Top Photographer",
+        "1 Chief Cinematographer & 1 Top Cinematographer",
         "All Retouched Photos Delivered",
-        "Stage & Candid Focus & Guest Portrait Masterclass",
-        "1 Cinematic Trailer & 1 Full-length Reception Film (10-15 Min)",
-        "Delivery By Pen Drive (30 Days)",
+        "Specialized Stage, Candid Focus & Guest Portraits",
+        "1 Cinematic Trailer & Full Reception Film (10-15 Min)",
+        "Exclusive Presentation Box with USB Drive (30 Days)",
       ],
     },
     {
-      name: "Maternity & Baby",
-      subtitle: "Life's Milestones",
+      name: "New Beginnings",
+      subtitle: "Maternity & Baby Milestones",
       price: "7,000 BDT",
       image: "/images/services/Maternity.jpg",
       imgPosition: "object-top",
       features: [
-        "1 Portrait Specialist",
-        "4-5 Hours Coverage",
-        "All Edited Photos",
-        "Family Portrait Session",
-        "Delivery By Google Drive (20 Days)",
+        "Directly Photographed by A.S.M. Sium",
+        "4-5 Hours Relaxed Session",
+        "All Professionally Edited Photos",
+        "Exclusive Family Portrait Session",
+        "Secure Google Drive Delivery (20 Days)",
       ],
     },
     {
-      name: "Milestone Events",
+      name: "The Milestone Series",
       subtitle: "Birthdays & Anniversaries",
       price: "14,000 BDT",
       image: "/images/services/Birthday.jpg",
       imgPosition: "object-center",
       features: [
-        "1 Senior Photographer & 1 Cinematographer",
-        "5 Hours Event Coverage",
-        "All Edited Photos",
-        "1 Cinematic Trailer & 1 Full Event Edit (5-7 Min)",
-        "Delivery By Google Drive (20 Days)",
+        "Lead Photography by A.S.M. Sium & Cinematographer",
+        "5 Hours Dedicated Event Coverage",
+        "All Professionally Edited Photos",
+        "1 Cinematic Trailer & Full Event Film (5-7 Min)",
+        "Secure Google Drive Delivery (20 Days)",
       ],
     },
     {
-      name: "Grand Celebrations",
+      name: "The Grand Celebration",
       subtitle: "Receptions, Weddings, & Haldi",
       price: "46,000 BDT",
       image: "/images/services/GRAND.jpg",
       imgPosition: "object-top",
       features: [
-        "3 Senior Photographers & 3 Cinematographer",
-        "Drone Coverage for Aerial Shots",
-        "Unlimited Coverage for 6-8 Hours",
-        "All Edited Photos Delivered",
-        "1 Cinematic Trailer & 1 Full Event Edit (10-15 Min)",
-        "Delivery By Pen Drive (30 Days)",
+        "Direct Creative Direction & Lead Shots by A.S.M. Sium",
+        "Cinematic Drone Coverage for Aerial Shots",
+        "Unlimited Master Coverage (6-8 Hours)",
+        "All Master-Retouched Photos Delivered",
+        "Exclusive Presentation Box with USB Drive (30 Days)",
       ],
     },
   ];
@@ -123,51 +122,51 @@ export default function Packages() {
   // 2. Multi-Day Combo Packages (6 Types)
   const comboPackages = [
     {
-      name: "The Essential Duo",
+      name: "Chapter I: The Essential Duo",
       events: "Holud + Wedding (Bride Side)",
       price: "27,000 BDT",
       image: "/images/services/Classicduo.jpg",
       imgPosition: "object-center",
       benefit:
-        "Save 10% on combined booking. Perfect for standard 2-day celebrations.",
+        "Save 10% on combined booking. Personal creative lead by A.S.M. Sium.",
       features: [
-        "1 Top Tier Photographer & 1 Top Tier Cinematographer for Both Days",
+        "Lead Photographer: A.S.M. Sium & Top Cinematographer for Both Days",
         "1 Cinematic Trailer & 1 Full Event Edit (per Day)",
         "All Retouched Photos Delivered",
         "Priority 15-Day Digital Delivery",
       ],
     },
     {
-      name: "The Classic Duo",
+      name: "Chapter II: The Classic Duo",
       events: "Wedding + Reception (Groom Side)",
       price: "45,000 BDT",
       image: "/images/services/Gduo.jpg",
       imgPosition: "object-center",
       benefit: "Complimentary Drone Coverage for the Reception Entry.",
       features: [
-        "2 Top Tier Photographers & 1 Top Tier Cinematographer on Both Days",
+        "2 Top Tier Photographers led by A.S.M. Sium & 1 Top Tier Cinematographer on Both Days",
         "All Retouched Photos Delivered",
         "1 Cinematic Trailer & 1 Full Film (per Day)",
         "Priority 15-Day Digital Delivery",
       ],
     },
     {
-      name: "The Vibrant Trilogy",
+      name: "Chapter III: The Vibrant Trilogy",
       events: "Mehendi + Holud + Wedding (Bride Side)",
       price: "47,000 BDT",
       image: "/images/services/Vtrio.jpg",
       imgPosition: "object-top",
       benefit: "Get a complimentary pre-wedding session with this package.",
       features: [
-        "1 Top Tier Photographers & 1 Top Tier Cinematographer for MEHENDI & HOLUD",
-        "2 Top Tier Photographers & 1 Top Tier Cinematographer for WEDDING",
+        "A.S.M. Sium & Top Cinematographer for MEHENDI & HOLUD",
+        "2 Senior Photographers & 1 Top Cinematographer for WEDDING",
         "All Retouched Photos Delivered",
         "Instagram Reel Edits for Mehendi & Comprehensive Event Film",
         "Priority 15-Day Digital Delivery",
       ],
     },
     {
-      name: "The Grand Trilogy",
+      name: "Chapter IV: The Grand Trilogy",
       events: "Holud + Wedding + Reception (Groom/Bride Side)",
       price: "65,000 BDT",
       image: "/images/services/GTrio.jpg",
@@ -176,16 +175,15 @@ export default function Packages() {
         "Complimentary Pre-Wedding Session & Drone Coverage for Reception.",
       isHighlight: true,
       features: [
-        "1 Senior Photographer & 1 Top Cinematographer for Holud",
-        "2 Senior Photographers & 1 Top Cinematographer for Wedding & Reception",
+        "Lead Direction by A.S.M. Sium for Holud, Wedding & Reception",
         "5-6 Hours Coverage per Day",
         "1 Cinematic Trailer, 1 Full Film Edit (per Day) & Reels for pre-wedding, wedding & reception",
-        "All Retouched Photos Delivered",
+        "Drone Coverage for Aerial Shots",
         "Delivery By Pen Drive (30 Days)",
       ],
     },
     {
-      name: "The Complete Saga",
+      name: "Chapter V: The Complete Saga",
       events: "Akhd + Holud + Wedding + Reception",
       price: "85,000 BDT",
       image: "/images/services/CSaga.jpg",
@@ -194,14 +192,14 @@ export default function Packages() {
         "Ultimate Value: Save 10% & Complimentary Pre-Wedding Session, Drone coverage (Reception), and express delivery within 14 Days.",
       features: [
         "5-6 Hours Coverage for 4 Full Events (Akhd, Holud, Wedding & Reception)",
-        "1 Senior Photographer & 1 Top Cinematographer for Akhd & Holud",
-        "2 Senior Photographers & 1 Top Cinematographer for Wedding & Reception",
+        "Personal Lead Coverage by A.S.M. Sium & Team",
         "All Retouched Photos Delivered",
         "1 Cinematic Trailer, 1 Full Film Edit (per Day) & Reels for all events",
+        "Drone Coverage for Reception",
       ],
     },
     {
-      name: "The Royal Signature",
+      name: "Chapter VI: The Royal Signature",
       events:
         "Pre-Wedding + Mehendi + Holud + Wedding + Reception (Bride & Groom Side)",
       price: "1,35,000 BDT",
@@ -210,7 +208,7 @@ export default function Packages() {
       benefit:
         "Our most exclusive tier. VIP priority, unlimited coverage & zero compromises.",
       features: [
-        "6-8 Hours of Unrestricted Coverage",
+        "6-8 Hours of Unrestricted Coverage Led by A.S.M. Sium",
         "2 Senior Photographers & 2 Top Cinematographers for Mehendi & Holud",
         "3 Senior Photographers & 2 Top Cinematographers for Wedding & Drone Coverage",
         "3 Senior Photographers & 3 Top Cinematographers for Reception & Drone Coverage",
@@ -264,11 +262,11 @@ export default function Packages() {
         {/* --- SECTION 1: CORE PACKAGES --- */}
         <div className="text-center mb-20">
           <h1 className="text-3xl md:text-5xl font-extralight tracking-widest text-white uppercase mb-4">
-            Signature Tiers
+            Booking Tiers
           </h1>
           <div className="w-16 h-[1px] bg-white/30 mx-auto mb-6"></div>
           <p className="text-neutral-400 text-xs md:text-sm tracking-widest uppercase font-light">
-            Base packages per single event
+            Book A.S.M. Sium &mdash; Package Rates Per Single Event
           </p>
         </div>
 
@@ -284,7 +282,6 @@ export default function Packages() {
               } group cursor-pointer`}
             >
               <div className="h-[350px] lg:h-[380px] relative overflow-hidden">
-                {/* Dynamically applying the imgPosition class for perfect framing */}
                 <img
                   src={pkg.image}
                   alt={pkg.name}
@@ -348,8 +345,8 @@ export default function Packages() {
           </h2>
           <div className="w-16 h-[1px] bg-white/30 mx-auto mb-6"></div>
           <p className="text-neutral-400 text-xs md:text-sm tracking-widest uppercase font-light max-w-2xl mx-auto">
-            Book multiple events together for a cohesive storytelling
-            experience.
+            Book multiple events together with A.S.M. Sium for a cohesive
+            storytelling experience.
           </p>
         </div>
 
@@ -365,7 +362,6 @@ export default function Packages() {
               }`}
             >
               <div className="h-[350px] lg:h-[380px] relative overflow-hidden">
-                {/* Dynamically applying the imgPosition class for combos too */}
                 <img
                   src={combo.image}
                   alt={combo.name}
