@@ -30,7 +30,7 @@ export default function Navbar() {
             </div>
             {/* Micro-typography Subtitle */}
             <span className="text-[7px] md:text-[8px] font-medium tracking-[0.6em] text-neutral-500 uppercase mt-1 pl-1 group-hover:text-neutral-300 transition-colors duration-700">
-              Photography
+              Visual Artist
             </span>
           </Link>
 
@@ -88,7 +88,7 @@ export default function Navbar() {
         </div>
       </header>
 
-      {/* Mobile Fullscreen Menu Overlay - FIX: Moved outside header block */}
+      {/* Mobile Fullscreen Menu Overlay */}
       <div
         className={`fixed inset-0 bg-[#050505] z-40 transition-transform duration-700 ease-in-out flex flex-col items-center justify-center ${
           isOpen ? "translate-x-0" : "translate-x-full"
