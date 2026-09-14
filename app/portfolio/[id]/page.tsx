@@ -246,17 +246,14 @@ const albumDatabase: Record<
     coverImage: "/images/c2.webp",
     gallery: [],
   },
-  // (একইভাবে corporate-3 থেকে corporate-10 পর্যন্ত যোগ করবেন)
 };
 
 export default function AlbumDetail() {
   const params = useParams();
   const albumId = params.id as string;
 
-  // URL এর ID অনুযায়ী ডাটাবেস থেকে নির্দিষ্ট অ্যালবামের ডাটা বের করা
   const albumData = albumDatabase[albumId];
 
-  // যদি ডাটাবেসে অ্যালবামের আইডি না থাকে বা আপনি এখনো ছবি অ্যাড না করে থাকেন, তাহলে এই পেজটি দেখাবে
   if (!albumData) {
     return (
       <div className="min-h-screen bg-[#020202] flex flex-col items-center justify-center text-white px-6 text-center">
@@ -281,7 +278,6 @@ export default function AlbumDetail() {
       {/* 1. Cinematic Album Hero (Cover Section) */}
       <div className="h-[60vh] md:h-[80vh] relative flex flex-col items-center justify-center border-b border-white/10">
         <div className="absolute inset-0 bg-black z-0">
-          {/* Cover Image from database */}
           <img
             src={albumData.coverImage}
             alt={albumData.title}
@@ -299,8 +295,8 @@ export default function AlbumDetail() {
         </div>
       </div>
 
-      {/* 2. Masonry Grid for Gallery Pictures */}
-      <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-24 md:py-32">
+      {/* 2. Masonry Grid for Gallery Pictures - ADDED MORE SIDE PADDING */}
+      <div className="max-w-[1400px] mx-auto px-8 md:px-12 lg:px-16 xl:px-24 py-24 md:py-32">
         {albumData.gallery.length > 0 ? (
           <div className="columns-1 md:columns-2 lg:columns-3 gap-4 md:gap-8 space-y-4 md:space-y-8">
             {albumData.gallery.map((imgSrc, idx) => (
@@ -314,13 +310,11 @@ export default function AlbumDetail() {
                   className="w-full h-auto object-cover transition-transform duration-1000 group-hover:scale-105"
                   loading="lazy"
                 />
-                {/* Subtle overlay on hover */}
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500"></div>
               </div>
             ))}
           </div>
         ) : (
-          /* যদি গ্যালারিতে কোনো ছবি না দেওয়া থাকে (Empty Array) */
           <div className="text-center py-20">
             <p className="text-neutral-500 text-xs uppercase tracking-[0.4em]">
               Photographs are currently being curated.
