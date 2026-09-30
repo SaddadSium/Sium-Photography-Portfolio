@@ -17,7 +17,6 @@ export default function Packages() {
       features: [
         "Lead personally by A.S.M. Sium",
         "5 Hours of Intimate Coverage",
-        "15 Master-Retouched Portraits",
         "All Edited High-Resolution Files",
         "Secure Google Drive Delivery (20 Days)",
       ],
@@ -30,7 +29,7 @@ export default function Packages() {
       imgPosition: "object-center",
       features: [
         "Lead personally by A.S.M. Sium & 1 Core Cinematographer",
-        "2 Scenic Locations (6 Hours) with Concept & Styling Guidance",
+        "1 Scenic Locations (6 Hours) with Concept & Styling Guidance",
         "All Hand-Retouched Photos Delivered",
         "1 Cinematic Reel & 1 Story Film Edit (3-5 Min)",
         "Secure Google Drive Delivery (20 Days)",
